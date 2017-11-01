@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1508956500 source:/home/manuel/Informatik/odflog/main.cpp
+	<iostream>
+	<string>
+	<ctime>
+	"unarchiver.h"
+	"versionparser.h"
+
+1508768856 /home/manuel/Informatik/odflog/unarchiver.h
+	<iostream>
+	<unzip.h>
+
+1499892515 /usr/include/minizip/unzip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1499892515 /usr/include/minizip/ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1508776103 source:/home/manuel/Informatik/odflog/unarchiver.cpp
+	"unarchiver.h"
+
+1508953961 source:/home/manuel/Informatik/odflog/logdata.cpp
+	"logdata.h"
+
+1508779024 /home/manuel/Informatik/odflog/logdata.h
+	<ctime>
+	<string>
+
+1508953174 source:/home/manuel/Informatik/odflog/versionparser.cpp
+	"versionparser.h"
+
+1509541033 /home/manuel/Informatik/odflog/versionparser.h
+	<vector>
+	<string>
+	<tinyxml2.h>
+	"logdata.h"
+
